@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tushar Mathur Portfolio</title>
+
+	<!-- CSS External Link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+	<!-- Main Headinig -->
+	<h1 > Portfolio </h1>			
+	<nav>
+		<a href="#section-1"><div>About</div></a>
+		<a href="#section-2"><div>Education</div></a>
+		<a href="#section-3"><div>Skills</div></a>
+		<a href="#section-4"><div>Recomendations</div></a>
+		<a href="#section-5"><div>Contacts</div></a>
+	</nav>
+</header>
+
+
+<!-- About Me -->
+<section id="section-1" class="flex">
+
+<div id="userInfo" class="flex"> 
+	
+	<div id="Description">
+		<p><q> I am a Web Developer building affordable websites for businesses and startups. I enjoy writing code for backend of websites and exploring new web technologies. I use HTML5, CSS3, JAVASCRIPT for front end design and PHP, MySQL for back end development </q></p>
+	</div>		
+
+
+	<div id="aboutMe" class="flex">
+
+		<div id="profileImg">
+		<!-- Profile Image -->
+		<img src="image.jpeg">
+		</div>
+
+		<!-- Profile Information -->
+		<div id="profileInfo">	
+			<h4>Name:</h4> 
+			<p>Tushar Mathur</p>
+			
+			<h4>Date of Birth:</h4>
+			<p> 29 December 1998</p>
+			
+			<h4>Qualification: </h4>
+			<p>Bachelore of Computer Applications (BCA)</p>
+			
+			<h4>Nationality:</h4>
+			<p> INDIAN </p>
+			
+			<h4>Languages:</h4>
+			<p> English, Hindi </p>
+			
+		</div>
+
+	</div>
+
+</div>
+</section>
+
+
+<!-- Eductaion and Qualification -->
+<section id="section-2" class="section-spacing">
+
+	<div id="education">
+
+	<!-- Heading -->
+	<h2>Eduction And Qualification</h2>
+
+	<div id="Inst" class="flex section-spacing">
+		<div class="eduDetails">
+			<p>Class 10<sup>th</sup></p>
+			<p>Central Board of Secondary Education</p>			
+			<p>Tagore International School</p>
+			<address>Jaipur, Rajasthan</address>
+		</div>
+
+		<div class="eduDetails">
+			<p>Class 12<sup>th</sup></p>
+			<p>Central Board of Secondary Education</p>			
+			<p>Tagore International School</p>
+			<address>Jaipur, Rajasthan</address>
+		</div>
+
+		<div class="eduDetails">
+			<p>Bachelor of Computer Application</p>
+			<p>S.S JAIN SUBODH PG AUTONOMOUS COLLEGE</p>			
+			<address>Jaipur, Rajasthan</address>
+		</div>
+
+		
+		</div>
+	</div>
+</section>
+
+
+<!-- Skills -->
+<section id="section-3">
+
+	<div id="skills">
+	
+	<h2>Skills And Hobbies</h2>
+	
+	<dl>
+
+		<dt><b> Skills - </b></dt>
+		<dd>Git <div><p>80%</p></div></dd>
+		<dd>HTML <div><p>80%</p></div></dd>
+		<dd>CSS <div><p>80%</p></div></dd>
+		<br>
+		<dt><b> Hobbies - </b></dt>
+		<dd>Cricket</dd>
+		<dd>Listening Music</dd>
+	</dl>
+
+	</div>
+
+</section>
+
+
+<!-- Recomanded videos -->
+<section id="section-4" class="section-spacing">
+
+	<div id="recomendations" class="base-padding">
+		
+		<h2>Recomended Videos For Learning Web Development</h2>
+
+		<div align="center">
+			<iframe width="500" height="315" src="https://www.youtube.com/embed/Eq5XuC6cEek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+			<iframe width="500" height="315" src="https://www.youtube.com/embed/SWb_0IXjm-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<iframe width="500" height="315" src="https://www.youtube.com/embed/dfnOpzMkSno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+	</div>
+
+</section>
+
+
+<!-- Contact Information -->
+<section id="section-5" class="section-spacing">
+
+	<div id="contact">
+
+		<h2>Contact</h2>
+
+		<form>
+			<p><b>First Name</b></p>
+			<p><input type="text" id="fnm" placeholder="First Name"></p>
+
+			<p><b>Last Name</b></p>
+			<p><input type="text" id="lnm" placeholder="Last Name"></p>
+
+			<p><b>Email</b></p>
+			<input type="email" id="eml" placeholder="Eamil">
+
+			<p><input type="button" id="submBtn" onclick="userData()" value="Submit"></p>
+		</form>
+
+	</div>
+
+</section>
+
+<!-- Display user input from contact bpx -->
+<section id="userInput" class="section-spacing">
+
+	<h2>User Details</h2>
+
+	<div class="userDetails">
+		<p>First Name</p>
+		<p>Last Name</p>
+		<p>Email</p>
+	</div>
+
+
+</section>
+
+<!-- Footer -->
+<footer >
+
+	<address>
+	
+		<div><b>Address :</b> India</div><br>
+		<div><b>Email :</b> tusharexample@gmail.com</div><br>
+		<div><b>Phone :</b> +91 8899-----0</div>
+	
+	</address>
+
+</footer>
+
+<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+/*CSS STYLESHEET*/
+body{
+padding: 0;
+margin: 0;
+font-family: arial;
+letter-spacing: 2px;
+line-height: 1.5;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.flex{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.section-spacing{
+padding-top: 2em;
+padding-bottom: 5em;
+}
+
+/* header style */
+header{
+box-sizing: border-box;
+float: left;	
+width: 100%;
+padding: 5px;
+position: fixed;
+top: 0;
+z-index: 3;
+background: #FFF;
+opacity: 0.7;
+}
+
+/* main heading */
+h1 {
+float: left;
+margin: 0;
+padding: 5px;
+}
+
+/* a tags inside header */
+header a{
+text-decoration: none;
+color: #000;
+}	
+
+/* div element inside header */
+header div{
+margin: 5px;
+float: left;
+padding: 10px;
+}
+
+/* hover effect on div inside header */
+header div:hover{
+border-bottom: 2px solid #CCCCCC;
+}
+
+/* sub headings */
+h2{
+text-align: center;
+margin: 0;
+padding: 20px;
+}
+
+/* section css */
+#section-1{
+padding: 2em 0 2em 0;
+margin-top: 25px;
+}
+
+q{
+font-size: 25px;
+}
+
+#userInfo{
+justify-content: space-evenly;
+}
+
+#Description{
+padding: 0em 1em 0em 1em;
+flex-basis: 45%;
+text-align: justify;
+line-height: 1.8;
+}
+
+#aboutMe{
+flex-basis: 40%;
+justify-content: space-evenly;
+flex-direction: column;
+max-width: 350px;
+padding: 1em;
+box-shadow: 0px 0px 10px rgba(0, 0 ,0 , 0.4);
+background: #FFF;
+border-radius: 5px;
+}
+
+#profileImg img{
+width: 100%;
+border-radius: 2px;
+}
+
+#aboutMe p{
+
+margin: 0;
+padding: 5px 0px 5px 0px;
+}
+
+h4{
+padding-top: 10px;
+margin: 0;
+}
+
+
+#Inst{
+width: 90%;
+margin: 0 auto;
+justify-content: space-evenly;
+}
+
+.eduDetails{
+border-radius: 10px;
+padding: 1em;
+flex-basis: 25%;
+background: #FFF;
+box-shadow: 0px 0px 5px #CCCCCC;
+align-self: stretch;
+}
+
+
+#skills div{
+padding: 2px;
+background: orange;
+max-width: 600px;
+border-radius: 50px;
+color: black;
+}
+
+#skills p{
+padding: 0;
+margin: 0;
+background: white;
+padding: 5px;
+width: 80%;
+border-radius: 50px;
+}
+
+dl, dt, dd{
+padding: 1em;
+}
+
+#contact{
+max-width: 700px;
+margin: 0 auto;
+}
+
+input{
+border: none;
+border: 1px solid #CCCCCC;
+padding: 1em;	
+width: 100%;
+box-sizing: border-box;
+border-radius: 5px;
+outline: none;
+}
+
+#submBtn{
+border: none;
+padding: 1em;
+border-radius: 5px;
+background: orange;
+color: #FFFF;
+}
+
+#submBtn:hover{
+transition-duration: 0.5s;
+box-shadow: 1px 1px 5px #CCCCCC;
+}
+
+
+.userDetails{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+}
+
+.userDetails p{
+flex-basis: 30%;
+text-align: center;
+}
+
+
+footer{
+padding: 10px;
+}
+
+@media(max-width: 1000px) {
+#section-1{
+display: block;
+margin-top: 60px;
+}
+#userInfo{
+flex-direction: column;
+}
+
+header{
+height: 70px;
+overflow: hidden;
+transition-duration: 0.75s;
+opacity: 1;
+}
+
+header:hover {
+height: 450px;
+}
+
+header div {
+clear: both;
+width: 100%;
+}
+
+#section-2{
+position: relative;
+}
+
+#Inst{
+display: block;
+}
+
+.eduDetails{
+margin-top: 15px;
+}
+
+}
